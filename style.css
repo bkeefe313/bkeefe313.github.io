@@ -1,0 +1,140 @@
+/* general stuff */
+html {
+    font-family: Georgia, serif;
+    color: #2a292b;
+}
+
+body {
+    background-color: #ad935b;
+    font-family: Georgia, serif;
+    color: #2a292b;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+/* header stuff */
+#header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title-bar {
+    background-color: #ad935b;
+    color: #2a292b;
+    padding: 10px;
+    text-align: center;
+}
+#title-bar h1 {
+    color: #2a292b;
+    font-size: 3em;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+#ben {
+    color:#533075;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #2a292b;
+    padding: 10px;
+}
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#nav li {
+    display: inline-block;
+    border: #000000;
+    border-style: none;
+    background-color: #2a292b;
+}
+#nav li a {
+    display: block;
+    color: #ad935b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover {
+    background-color: #ad935b;
+    color: #2a292b;
+}
+#nav li ul {
+    background-color: #f9f9f9;
+    position: absolute;
+    min-width: 90px;
+    max-width: 120px;
+    display: none;
+}
+#nav li:hover ul {
+    display: block;
+}
+#nav li ul li {
+    border-style: none;
+    display: block;
+}
+#nav li ul li:hover {
+    border-style: solid;
+    border-color: #826f45;
+}
+
+/* main stuff */
+#main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#main h2 {
+    color: #2a292b;
+    font-size: 2em;
+    text-align: center;
+}
+#content {
+    line-height: 20pt;
+}
+#main a {
+    color: #533075;
+}
+#main h2 {
+    padding: 20px;
+}
+
+/* photography */
+#photo-album-list {
+    color: #2a292b;
+}
+
+#photo-album {
+    color: #2a292b;
+}
+#photo-album h1 {
+    color: #2a292b;
+    font-size: 20px;
+}
+.picture-box {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.picture-box img {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    height: auto;
+    object-fit: contain;
+    margin: 10px;
+}
