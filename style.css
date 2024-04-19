@@ -142,7 +142,7 @@ body {
 /* CS Stuff */
 #cs-projects {
 
-}
+}   
 #cs-projects ul {
 
 }
@@ -152,4 +152,21 @@ body {
 #cs-projects ul li h1 {
     font-size: 20px;
     font-variant: small-caps;
+}
+
+/* contact page */
+#contact-main {
+    line-height: 30px;
+    justify-content: center;
+    text-align: center;
+}
+#contact-list {
+    justify-content: center;
+}
+#contact-list li {
+    display: block;
+}
+#contact-list li a {
+    font-weight: bolder;
+    color:#533075;
 }
