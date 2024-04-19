@@ -138,3 +138,18 @@ body {
     object-fit: contain;
     margin: 10px;
 }
+
+/* CS Stuff */
+#cs-projects {
+
+}
+#cs-projects ul {
+
+}
+#cs-projects ul li{
+    display: block;
+}
+#cs-projects ul li h1 {
+    font-size: 20px;
+    font-variant: small-caps;
+}
