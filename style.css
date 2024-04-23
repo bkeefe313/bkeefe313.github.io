@@ -104,6 +104,9 @@ body {
 }
 #content {
     line-height: 20pt;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 300px;
 }
 #main a {
     color: #533075;
